@@ -68,27 +68,7 @@ Componente raíz. Contiene el estado global y coordina todos los demás componen
 
 ---
 
-## 🐛 Bugs corregidos (20)
 
-### `index.js`
-
-| # | Descripción |
-|---|---|
-| 1 | `TituloMesAno` usaba `props` suelto en lugar de `props.mes` y `props.ano` |
-| 2 | `new Date(year, month - 1. 1)` — punto en lugar de coma |
-| 3 | Variables `i`, `row` y `rows` no declaradas en `calcularCeldasDia` |
-| 4 | `day & 7` — operador bitwise `&` en lugar de módulo `%` |
-| 5 | `` `cell & ${flexOrder}` `` — `&` literal en el string del className |
-| 6 | Estado `dayIsClciked` / setter `dayIsClicked` — typo inconsistente que impedía actualizar el estado |
-| 7 | `onTuch` — faltaba la `h` en el nombre del evento táctil |
-| 8 | `weekdaysTitle` con minúscula — componente no encontrado en el render |
-| 9 | `handleSwupeEvent` — typo en el handler de `onTouchMove` |
-| 10 | `"left;"` — punto y coma dentro del string de dirección |
-| 11 | `transitionLeaceTimeout` — typo, debía ser `transitionLeaveTimeout` |
-| 12 | Lógica del carrusel invertida para los cambios dic→ene y ene→dic |
-| 13 | `DayCelss` — typo en el nombre del componente |
-| 14 | El segundo `MonthControls` usaba `handleDayClicked` en lugar de `handleMonthChange` |
-| 15 | `RecyDom.render` — typo, debía ser `ReactDOM.render` |
 
 ### `style.css`
 
