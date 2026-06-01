@@ -110,3 +110,9 @@ Componente raíz. Contiene el estado global y coordina todos los demás componen
 | Desktop (Chrome, Firefox, Safari) | ✅ |
 | Móvil (iOS Safari, Android Chrome) | ✅ con swipe |
 | Pantallas < 768px | ✅ responsive |
+
+## 🗺️ Pagina
+https://calendario-jet-zeta.vercel.app/
+
+## captura
+![Captura de la imagen](/imagen/imagen.png)
