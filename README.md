@@ -1,6 +1,6 @@
-# 📅 Calendario iOS
+# 📅 Calendario 
 
-Calendario estilo iOS construido con React 15, CSS puro y soporte para gestos táctiles (swipe). Permite navegar entre meses con flechas o deslizando el dedo, y seleccionar días individualmente.
+Calendario construido con React 15, CSS puro y soporte para gestos táctiles (swipe). Permite navegar entre meses con flechas o deslizando el dedo, y seleccionar días individualmente.
 
 ---
 
